@@ -1,10 +1,10 @@
-# helm-pinboard
-Alpha quality - helm-pinboard is evolved from help-delicious
+Alpha quality.
 
-You might install this as follows, but you'll need to have both
-[[https://melpa.org/#/use-package][use-package]] and [[https://melpa.org/#/quelpa][quelpa]] installed already.
+[[https://github.com/bhyde/helm-pinboard][helm-pinboard]] is based on [[https://www.emacswiki.org/emacs/helm-delicious.el][helm-delicious]].
 
-It 
+Requires: helm and xml
+
+Add this to your init file, but it requires:  [[https://melpa.org/#/use-package][use-package]] and [[https://melpa.org/#/quelpa][quelpa]].
 
 #+begin_src emacs-lisp
 (use-package helm-pinboard
@@ -17,3 +17,7 @@ It
            ;; (customize-set-variable 'helm-wget (executable-find "wget"))
            ))
 #+end_src
+
+A bit of history: Thierry Volpiatto circa 2008 and 2009 was the
+original author of helm-delicious, Joe Bloggs <vapniks@yahoo.com> took
+over maintainace at some point.

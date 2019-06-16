@@ -7,7 +7,7 @@
 ;; Version: 1.0
 ;; Package-Requires (helm-mode xml)
 ;; Last-Updated: 2013-10-21 01:28:00
-;; URL: https://github.com/vapniks/helm-pinboard
+;; URL: https://github.com/bhyde/helm-pinboard
 ;; Keywords: pinboard bookmarks helm
 ;; Compatibility: Gnus Emacs 24.3
  
