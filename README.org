@@ -7,13 +7,13 @@ You might install this as follows, but you'll need to have both
 It 
 
 #+begin_src emacs-lisp
-  (use-package helm-pinboard
-    ;; :ensure ; Enable if this is your preference.
-    :commands helm-pinboard
-    :quelpa helm-pinboard
-    :after helm-mode xml
-    :custom (;; Typically you needn't customize anything.
-             ;; (customize-set-variable 'helm-c-pinboard-cache-file "~/.pinboard.cache")
-             ;; (customize-set-variable 'helm-wget (executable-find "wget"))
-             ))
+(use-package helm-pinboard
+  ;; :ensure ; Enable if this is your preference.
+  :commands helm-pinboard
+  :quelpa (helm-pinboard :fetcher github :repo "bhyde/helm-pinboard")
+  :after helm-mode xml
+  :custom (;; Typically you needn't customize anything.
+           ;; (customize-set-variable 'helm-c-pinboard-cache-file "~/.pinboard.cache")
+           ;; (customize-set-variable 'helm-wget (executable-find "wget"))
+           ))
 #+end_src

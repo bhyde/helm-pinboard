@@ -46,7 +46,7 @@
 ;;   (use-package helm-pinboard
 ;;     ;; :ensure ; Enable if this is your preference.
 ;;     :commands helm-pinboard
-;;     :quelpa helm-pinboard
+;;     :quelpa (helm-pinboard :fetcher github :repo "bhyde/helm-pinboard")
 ;;     :after helm-mode xml
 ;;     :custom (;; Typically you needn't customize anything.
 ;;              ;; (customize-set-variable 'helm-c-pinboard-cache-file "~/.pinboard.cache")
