@@ -1,8 +1,6 @@
-Alpha quality.
-
 [[https://github.com/bhyde/helm-pinboard][helm-pinboard]] is based on [[https://www.emacswiki.org/emacs/helm-delicious.el][helm-delicious]].
 
-Requires: helm and xml
+Requires: emacs packages: helm-mode and xml
 
 Add this to your init file, but it requires:  [[https://melpa.org/#/use-package][use-package]] and [[https://melpa.org/#/quelpa][quelpa]].
 
